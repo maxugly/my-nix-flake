@@ -18,7 +18,7 @@
       # All the packages you want in your profile
       myPackages = [
         # From the fresh flake – note: NOT from pkgs
-#        fresh.packages.${system}.default
+        fresh.packages.${system}.default
 
         # Everything below comes from nixpkgs (pkgs.*)
 		pkgs.devenv
