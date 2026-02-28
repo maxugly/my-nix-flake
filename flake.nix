@@ -21,6 +21,9 @@
         fresh.packages.${system}.default
 
         # Everything below comes from nixpkgs (pkgs.*)
+		#GOOFY
+		pkgs.lolcat
+		pkgs.ponysay
 		pkgs.devenv
         pkgs.rsyncy
         pkgs.vscode
