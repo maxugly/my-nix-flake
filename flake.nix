@@ -41,6 +41,7 @@
         pkgs.lla
         pkgs.bat
         pkgs.nix-tree
+		plgs.nix-output-monitor
         pkgs.btop
         pkgs.bandwhich
         pkgs.doggo
