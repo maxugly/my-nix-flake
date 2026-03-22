@@ -22,8 +22,7 @@
 
         # Everything below comes from nixpkgs (pkgs.*)
         # TERMINALS FOR TESTING
-        pkgs.kitty
-        pkgs.alacritty
+        pkgs.tilix
         pkgs.foot
 
         # GOOFY
