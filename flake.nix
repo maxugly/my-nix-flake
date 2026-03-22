@@ -21,10 +21,16 @@
         fresh.packages.${system}.default
 
         # Everything below comes from nixpkgs (pkgs.*)
-		#GOOFY
-		pkgs.lolcat
-		pkgs.ponysay
-		pkgs.devenv
+        # TERMINALS FOR TESTING
+        pkgs.kitty
+        pkgs.alacritty
+        pkgs.foot
+
+        # GOOFY
+        pkgs.inkscape-with-extensions
+        pkgs.lolcat
+        pkgs.ponysay
+        pkgs.devenv
         pkgs.rsyncy
         pkgs.vscode
         pkgs.rofi
@@ -43,8 +49,9 @@
         pkgs.lazyssh
         pkgs.lla
         pkgs.bat
+        pkgs.nixmate
         pkgs.nix-tree
-		pkgs.nix-output-monitor
+        pkgs.nix-output-monitor
         pkgs.btop
         pkgs.bandwhich
         pkgs.doggo
